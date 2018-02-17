@@ -50,7 +50,7 @@ searchForm.addEventListener('submit', e => {
             <h5 class="card-title title">${post.title}</h5>
             <p class="card-text self-text">${truncateText(post.selftext,100)}</p>
             <hr>
-            <a href="${post.url}" target="_blank" class="read-more">Read More <i class="fas fa-chevron-circle-right"></i></a>
+            <a href="${post.url}" target="_blank" class="read-more">See More <i class="fas fa-chevron-circle-right"></i></a>
             <hr>
             <span class="badge subreddit">subreddit: <span>${post.subreddit}</span></span>
             <span class="badge score">score: <span>${post.score}</span></span>

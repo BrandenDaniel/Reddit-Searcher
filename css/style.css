@@ -46,6 +46,7 @@ select {
   font-size: .85em;
   border: none;
   color: rgba(0,0,0,.6);
+  margin-left: 2px;
 }
 
 .read-more:hover {
@@ -105,10 +106,7 @@ select {
   }
 
   .read-more {
-    padding: 0.2em .3em 0 .3em !important;
     font-size: .85em;
-    background: rgba(255, 69, 0, .8) !important;
-    border: none;
   }
 
 }
