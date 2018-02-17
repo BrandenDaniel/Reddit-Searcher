@@ -42,7 +42,9 @@ searchForm.addEventListener('submit', e => {
         output += `
         <div class="card">
           <div class="img-container">
-            <img class="card-img-top ${redditImg}" src="${image}" alt="Card image cap">
+            <a href="${post.url}" target="_blank">
+              <img class="card-img-top ${redditImg}" src="${image}" alt="Card image cap">
+            </a>
           </div>
           <div class="card-body">
             <h5 class="card-title title">${post.title}</h5>
