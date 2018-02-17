@@ -43,14 +43,13 @@ select {
 }
 
 .read-more {
-  padding: 0 .3em .1em .3em;
   font-size: .85em;
-  background: rgba(255, 69, 0, .8) !important;
   border: none;
+  color: rgba(0,0,0,.6);
 }
 
 .read-more:hover {
-  background: rgba(255, 69, 0, .8) !important;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -59,6 +58,7 @@ select {
   padding: 5px 6px;
   border-radius: 5px;
   margin: 0 2px 0 0;
+  font-weight: 600;
 }
 
 .score {
