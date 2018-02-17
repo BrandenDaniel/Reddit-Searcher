@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Finddit | Reddit Searcher App</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <span class="navbar-brand">Reddit Searcher App</span>
+    </div>
+  </nav>
+  <div id="search-container" class="container">
+    <div id="search" class="card card-body bg-light mb-2">
+      <h4>Search Reddit</h4>
+      <form id="search-form">
+        <div class="form-group">
+          <input type="text" id="search-input" class="form-control" placeholder="Search Term...">
+        </div>
+        <hr>
+        <!-- <div class="sort-div"> -->
+          <span class="sort-by mr-0">Sort By:</span>
+          <div class="form-group form-check-inline form">
+            <select id="sortBy" class="form-control">
+              <option value="relevance">relevance</option>
+              <option value="new">new</option>
+              <option value="hot" selected>hot</option>
+              <option value="top">top</option>
+            </select>
+          </div>
+        <!-- </div> -->
+
+
+        <!-- <div class="limit-div"> -->
+          <span class="ml-2 limit">Limit: </span>
+          <div class="form-group form-check-inline">
+            <select id="limit" name="limit" class="form-control">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="25" selected>25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+        <!-- </div> -->
+
+        <button type="submit" class="btn btn-dark submit">Search</button>
+      </form>
+    </div>
+    <div id="results">
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
