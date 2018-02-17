@@ -54,6 +54,7 @@ searchForm.addEventListener('submit', e => {
             <hr>
             <span class="badge subreddit">subreddit: <span>${post.subreddit}</span></span>
             <span class="badge score">score: <span>${post.score}</span></span>
+            <span class="badge comments">comments: <span>${post.num_comments}</span></span>
           </div>
         </div>
         `;

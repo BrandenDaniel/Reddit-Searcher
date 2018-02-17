@@ -77,9 +77,19 @@ select {
   padding: 5px 6px;
 }
 
-.score span, .subreddit span {
+.comments {
+  background: rgba(0,100,255, .15);
+  padding: 5px 6px;
+  margin: 7px 2px 0 0;
+}
+
+.score span, .comments span {
   color: rgba(0,0,0,.5);
 }
+
+ .subreddit span {
+   color: rgba(0,0,0,.6);
+ }
 
 .img-container {
   text-align: center;
