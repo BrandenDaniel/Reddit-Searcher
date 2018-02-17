@@ -46,7 +46,7 @@ searchForm.addEventListener('submit', e => {
           </div>
           <div class="card-body">
             <h5 class="card-title title">${post.title}</h5>
-            <p class="card-text self-text">${truncateText(post.selftext,100)} ...</p>
+            <p class="card-text self-text">${truncateText(post.selftext,100)}</p>
             <a href="${post.url}" target="_blank" class="btn btn-primary read-more">Read More</a>
             <hr>
             <span class="badge subreddit">subreddit: <span>${post.subreddit}</span></span>
@@ -95,6 +95,6 @@ function showMessage(message, className) {
 function truncateText(text, limit) {
   const shortened = text.indexOf(' ', limit);
   if(shortened === -1) return text;
-  return text.substring(0, shortened);
+  return text.substring(0, shortened) + ' ...';
 
 }
