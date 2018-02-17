@@ -38,6 +38,13 @@ select {
   word-spacing: 2px;
 }
 
+.read-more-arrow {
+  display: inline-block;
+  position: absolute;
+  margin-top: 2px;
+  color: rgba(0,0,0,.6);
+}
+
 .submit {
   width: 100%;
 }
@@ -47,6 +54,8 @@ select {
   border: none;
   color: rgba(0,0,0,.6);
   margin-left: 2px;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 .read-more:hover {
