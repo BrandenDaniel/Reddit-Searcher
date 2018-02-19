@@ -16,6 +16,10 @@ select {
   padding: .75em;
 }
 
+#search-input {
+  border-radius: 3px;
+}
+
 .sort-by {
   margin-left: 2px;
   margin-right: 2em;
@@ -27,11 +31,11 @@ select {
 }
 
 #sortBy, #limit {
-  width: 75px;
-  padding: 0 0 0 5px;
-  height: 30px;
+  width: 70px;
+  padding: 0 0 0 3px;
+  height: 28px;
   font-size: .85em;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 #sortBy {
@@ -47,6 +51,7 @@ select {
 
 .submit {
   width: 100%;
+  border-radius: 3px;
 }
 
 .read-more {
@@ -119,7 +124,6 @@ select {
   #sortBy, #limit {
     padding: 0 0 0 2px;
     height: 27px;
-    border-radius: 0;
     width: 65px;
     margin-left: 0 !important;
   }
