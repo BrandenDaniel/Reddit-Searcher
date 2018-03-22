@@ -8,7 +8,7 @@ searchForm.addEventListener('submit', e => {
   const searchTerm = searchInput.value;
 
   //Get sortby
-  const sortBy = document.getElementById('sortBy').value;
+  const sortBy = document.querySelector('input[name="sortby"]:checked').value;
 
   //Get Limit
   const searchLimit = document.getElementById('limit').value;

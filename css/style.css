@@ -1,5 +1,7 @@
 .navbar {
   background: rgba(255, 69, 0, .9) !important;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,.25);
+
 }
 
 .navbar-brand {
@@ -20,9 +22,20 @@ select {
   border-radius: 3px;
 }
 
+.form-check-inline {
+  margin-right: .4em;
+}
+
+.sort-by-container {
+  display: inline-block;
+  border-right: 1px solid rgba(0,0,0,.2);
+  margin-right: .5em;
+  padding-right: .8em;
+}
+
 .sort-by {
-  margin-left: 2px;
-  margin-right: 2em;
+  margin-left: 4px;
+  margin-right: .5em;
   display: inline-block !important;
 }
 
