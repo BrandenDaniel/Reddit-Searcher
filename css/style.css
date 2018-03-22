@@ -35,16 +35,19 @@ select {
 
 .sort-by {
   margin-left: 4px;
-  margin-right: .5em;
   display: inline-block !important;
 }
 
+.limit {
+  padding-right: .4em;
+}
+
 .sort-by, .limit {
-  font-size: .85em;
+  font-size: .9em;
 }
 
 #sortBy, #limit {
-  width: 50px;
+  width: 55px;
   padding: 0 0 0 3px;
   height: 28px;
   font-size: .85em;
@@ -129,7 +132,7 @@ select {
 
 @media (max-width: 450px) {
   .sort-by, select, .limit {
-    font-size: .75em !important;
+    font-size: .85em !important;
     margin-left: 1px !important;
     margin-right: 0px;
   }
@@ -137,12 +140,21 @@ select {
   #sortBy, #limit {
     padding: 0 0 0 2px;
     height: 27px;
-    width: 45px;
+    width: 55px;
     margin-left: 0 !important;
   }
 
   .read-more {
     font-size: .85em;
+  }
+
+}
+
+@media (max-width: 385px) {
+  .sort-by-container {
+    display: block;
+    border: 0;
+    margin-bottom: .75em;
   }
 
 }
